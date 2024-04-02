@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card-container{
+    padding: 20px;
+}
+.button-container {
+    display: flex;
+    margin-top: 20px;
+}
+.button-container button:not(:last-child) {
+    margin-right: 20px;
+}
